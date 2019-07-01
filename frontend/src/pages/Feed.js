@@ -61,7 +61,7 @@ class Feed extends Component {
                         <img src = {comment} alt = ""/>
                         <img src = {send} alt = ''/>
                     </div>
-                    <strong>{post.likes}</strong>
+                    <strong>{post.likes} curtidas</strong>
                     <p>
                         {post.description}
                         <span>{post.hashtags}</span>
